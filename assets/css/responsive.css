@@ -5171,6 +5171,9 @@
     .product-cart-wrap:hover .product-img-action-wrap .product-actions {
         width: 55%;
     }
+    .product-cart-wrap.style-2 .product-content-wrap .deals-content {
+        min-height: 180px;
+    }
   }
 
   /* 
