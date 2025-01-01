@@ -5132,12 +5132,45 @@
     .dashboard-card-body {
         padding: 0px 4px 0px 4px;
     }
+    .product-list-small h6 a {
+        color: #253D4E;
+        font-weight: 500;
+        font-size: 15px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .carausel-card-wrapper .card-2 {
+      padding: 0px;
+      min-height: auto;
+    }
+    .product-cart-wrap .product-content-wrap h2 a {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+              line-clamp: 2; 
+      -webkit-box-orient: vertical;
+    }
+    .timeline-steps .timeline-content {
+        width: 7rem;
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        right: 53px;
+    }
+    .timeline-steps .timeline-step:not(:last-child):after {
+        width: 0px;
+        left: 0px;
+    }
   }
 
+
+  /* tablet tab responsive */
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .hero-slider-1 .slider-content {
-        top: 27%;
-        left: 6%;
+        top: 44%;
+        left: 4%;
     }
     .hero-slider-1 .single-hero-slider .slider-content p {
         font-size: 15px;
@@ -5165,14 +5198,108 @@
     .banner-img .banner-text {
         top: 38%;
     }
-    .footer-install-app{
-      text-align: center;
+    .widget-install-app {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .download-app {
+        margin: 15px 0px 0px;
     }
     .product-cart-wrap:hover .product-img-action-wrap .product-actions {
         width: 55%;
     }
     .product-cart-wrap.style-2 .product-content-wrap .deals-content {
         min-height: 180px;
+    }
+    .slider-background-shape {
+        height: auto;
+    }
+    .product-cart-wrap .product-content-wrap h2 a {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .product-list-small h6 a {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .logo.logo-width-1 {
+      margin-right: 0px;
+    }
+    .product-cart-wrap {
+      min-height: 380px;
+    }
+    .product-cart-wrap .product-img-action-wrap {
+        padding: 5px 10px 5px 10px;
+    }
+    .detail-info h2 {
+        font-size: 25px;
+    }
+    .detail-info .product-price {
+        margin: 0px 0 12px 0;
+    }
+    .product-details-wrap {
+      padding: 0px !important;
+    }
+    .product-info {
+        border: 1px solid #ececec;
+        border-radius: 15px;
+        padding: 25px 20px;
+    }
+    .tab-content.shop_info_tab {
+        margin-top: 20px;
+    }
+    .product-cart-wrap {
+        min-height: 333px;
+        margin-bottom: 10px;
+    }
+    .product-cart-wrap .product-img-action-wrap .product-img a img {
+        margin: 31px 0px 0px 0px;
+    }
+    .cart-dropdown-wrap.cart-dropdown-hm2 {
+        right: 0px;
+    }
+    .cart-dropdown-wrap ul li {
+        gap: 10px;
+    }
+    .cart-table-wrapper .cart-table {
+        gap: 5px !important;
+    }
+    .dashboard-menu ul li a {
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .profile-bg-image {
+        height: 100px;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .profile-img {
+        top: 6%;
+        left: 25%;
+    }
+    .order-card-body {
+        gap: 2px;
+        padding: 0px 0px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .order-table-product-name {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .my-order-wrap:nth-child(1) {
+        flex-basis: 55%;
+    }
+    .my-order-wrap:nth-child(2) {
+        flex-basis: 45%;
     }
   }
 
@@ -5203,7 +5330,7 @@
     .product-cart-wrap .product-content-wrap h2 a {
       font-size: 15px;
     }
-      .product-cart-wrap .product-action-1 a.action-btn {
+    .product-cart-wrap .product-action-1 a.action-btn {
         width: 30px;
         height: 30px;
         line-height: 30px;
@@ -5653,7 +5780,7 @@
     }
     .timeline-steps .timeline-step:not(:first-child):before {
         width: 48px;
-        right: 34px;
+        right: 29px;
     }
     .timeline-steps .timeline-step:not(:last-child):after {
         width: 0px;
